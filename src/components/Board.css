@@ -1,0 +1,8 @@
+.board {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+
+.card:hover {
+    background-color: gainsboro;
+}
